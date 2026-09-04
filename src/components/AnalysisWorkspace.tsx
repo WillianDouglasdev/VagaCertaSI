@@ -2,7 +2,6 @@ import type { RefObject } from 'react'
 import type { ActiveProfile, JobOpportunity } from '../types/domain'
 import { ActiveProfileBar } from './ActiveProfileBar'
 import { JobAnalysisForm, type JobFormValues } from './JobAnalysisForm'
-import { LiaMark } from './LiaMark'
 
 interface AnalysisWorkspaceProps {
   sectionRef: RefObject<HTMLElement | null>
@@ -35,11 +34,10 @@ export function AnalysisWorkspace({
         <ActiveProfileBar activeProfile={activeProfile} onChange={onChangeProfile} />
 
         <header className="workspace-heading">
-          <LiaMark size="medium" />
           <div>
-            <span className="eyebrow">Vamos começar</span>
-            <h2 id="workspace-title">Qual vaga você quer entender?</h2>
-            <p>Use o exemplo preenchido ou cole outra descrição para testar.</p>
+            <span className="eyebrow">02 / Vaga</span>
+            <h2 id="workspace-title">Agora, a descrição da vaga</h2>
+            <p>Deixei um exemplo preenchido. Você pode editar tudo antes de comparar.</p>
           </div>
         </header>
 

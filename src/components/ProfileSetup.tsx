@@ -3,7 +3,6 @@ import type {
   ProfessionalFactType,
   ProfessionalProfile,
 } from '../types/domain'
-import { LiaMark } from './LiaMark'
 import { SkillTag } from './SkillTag'
 
 export type ProfileSetupStage = 'choose' | 'paste' | 'review'
@@ -118,20 +117,22 @@ export function ProfileSetup({
     >
       <div className="container-xl">
         <header className="profile-setup__heading">
-          <LiaMark size="medium" />
           <div>
-            <span className="eyebrow">Antes da vaga</span>
-            <h2 id="profile-setup-title">Qual perfil a Lia deve usar?</h2>
-            <p>Escolha um exemplo pronto ou confira as informações do seu próprio texto.</p>
+            <span className="eyebrow">01 / Perfil</span>
+            <h2 id="profile-setup-title">Com qual perfil você quer testar?</h2>
+            <p>O meu já está pronto. Se preferir, cole o seu e revise antes de continuar.</p>
           </div>
         </header>
 
         {stage === 'choose' && (
           <div className="profile-choice-grid">
             <article className="profile-choice-card profile-choice-card--demo">
-              <span className="choice-label">Quer testar rapidinho?</span>
-              <h3>Testar com o perfil do criador</h3>
-              <p>Use as informações reais do autor do projeto para ver como a análise funciona.</p>
+              <span className="choice-label">Opção 1 · exemplo pronto</span>
+              <h3>Usar o perfil do Willian</h3>
+              <p>
+                Usei meu próprio currículo porque era o material que eu conhecia melhor
+                para testar esta primeira versão.
+              </p>
 
               <div className="demo-profile-preview">
                 <strong>{creatorProfile.name}</strong>
@@ -151,12 +152,12 @@ export function ProfileSetup({
               </button>
             </article>
 
-            <article className="profile-choice-card">
-              <span className="choice-label">Quer usar seus dados?</span>
+            <article className="profile-choice-card profile-choice-card--personal">
+              <span className="choice-label">Opção 2 · seu conteúdo</span>
               <h3>Usar meu próprio perfil</h3>
               <p>
-                Cole o texto do currículo ou informações copiadas do seu LinkedIn e confira
-                tudo antes de continuar.
+                Se quiser sair do exemplo, cole o texto do currículo ou informações
+                copiadas do LinkedIn. Você confere tudo antes da comparação.
               </p>
 
               <ul className="own-profile-list">
@@ -179,7 +180,7 @@ export function ProfileSetup({
             </button>
 
             <div className="profile-text-card__heading">
-              <span className="choice-label">Seu perfil</span>
+              <span className="choice-label">Texto para organizar</span>
               <h3>Cole seu currículo ou perfil</h3>
               <p>
                 Você pode colar aqui o texto do currículo ou informações copiadas do

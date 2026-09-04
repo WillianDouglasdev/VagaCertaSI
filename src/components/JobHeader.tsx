@@ -8,7 +8,7 @@ export function JobHeader({ analysis }: JobHeaderProps) {
   return (
     <header className="job-header">
       <div>
-        <span className="eyebrow">Pronto. Achei algumas coisas interessantes.</span>
+        <span className="eyebrow">Resultado da comparação</span>
         <h2>{analysis.job.role}</h2>
         <div className="job-meta" aria-label="Informações da vaga">
           <span>{analysis.job.company}</span>

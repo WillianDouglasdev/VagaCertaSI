@@ -201,7 +201,7 @@ export function AnalyzeJobPage() {
       <footer className="app-footer">
         <div className="container-xl">
           <LiaMark size="small" />
-          <span>Lia — demo local e determinística, sem IA generativa ou armazenamento.</span>
+          <span>Feito por Willian como projeto de estudo. A análise roda localmente no navegador.</span>
         </div>
       </footer>
     </>

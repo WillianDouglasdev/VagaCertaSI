@@ -7,3 +7,6 @@ dist/
 npm-debug.log*
 *.tsbuildinfo
 .vercel/
+
+# Documentação pessoal de estudo. Este arquivo deve continuar somente na máquina local.
+docs/documentacao-interna-lia.txt

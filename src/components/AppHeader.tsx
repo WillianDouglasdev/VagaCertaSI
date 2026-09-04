@@ -16,6 +16,11 @@ export function AppHeader() {
                 Início
               </a>
             </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#projeto">
+                Projeto
+              </a>
+            </li>
           </ul>
         </nav>
       </div>

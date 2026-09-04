@@ -2,22 +2,22 @@ const steps = [
   {
     number: '01',
     title: 'Cole a vaga',
-    description: 'A Lia organiza aquela descrição enorme.',
+    description: 'Use o exemplo ou cole a descrição completa.',
   },
   {
     number: '02',
-    title: 'Compare com seu perfil',
-    description: 'Veja o que você já sabe e o que está faltando.',
+    title: 'Escolha o perfil',
+    description: 'Teste com o meu ou revise o seu próprio texto.',
   },
   {
     number: '03',
-    title: 'Entenda o que importa',
-    description: 'Descubra quais requisitos parecem ter mais peso.',
+    title: 'Compare os termos',
+    description: 'As regras separam correspondências e lacunas.',
   },
   {
     number: '04',
-    title: 'Arrume o currículo',
-    description: 'Veja o que faz sentido destacar para aquela vaga.',
+    title: 'Revise o destaque',
+    description: 'Veja o que já existe e pode ficar mais visível.',
   },
 ]
 

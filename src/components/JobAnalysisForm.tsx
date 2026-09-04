@@ -35,9 +35,9 @@ export function JobAnalysisForm({
   return (
     <form className="analysis-form" onSubmit={handleSubmit} aria-busy={isLoading}>
       <div className="form-heading">
-        <span className="eyebrow">Exemplo para testar</span>
-        <h2 id="analysis-form-title">Achou uma vaga interessante?</h2>
-        <p>Vamos ver o que a empresa está procurando.</p>
+        <span className="eyebrow">Vaga de referência</span>
+        <h2 id="analysis-form-title">Informações usadas na comparação</h2>
+        <p>O texto abaixo foi adaptado de uma vaga que usei durante o estudo.</p>
       </div>
 
       <div className="row g-3">
@@ -113,7 +113,7 @@ export function JobAnalysisForm({
           </>
         ) : (
           <>
-            Analisar com a Lia <span aria-hidden="true">→</span>
+            Comparar vaga e perfil <span aria-hidden="true">→</span>
           </>
         )}
       </button>

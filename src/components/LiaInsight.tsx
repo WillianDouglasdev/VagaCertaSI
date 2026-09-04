@@ -1,5 +1,3 @@
-import { LiaMark } from './LiaMark'
-
 interface LiaInsightProps {
   eyebrow: string
   title: string
@@ -16,7 +14,6 @@ export function LiaInsight({
   return (
     <article className={`lia-insight lia-insight--${tone}`}>
       <div className="lia-insight__header">
-        <LiaMark size="medium" />
         <div>
           <span className="eyebrow">{eyebrow}</span>
           <h3>{title}</h3>

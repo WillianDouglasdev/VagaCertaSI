@@ -26,7 +26,7 @@ export function ResumeHighlights({ resume, profile }: ResumeHighlightsProps) {
       <div className="section-heading">
         <span className="section-number" aria-hidden="true">03</span>
         <div>
-          <span className="eyebrow">Dica da Lia</span>
+          <span className="eyebrow">Reorganização do conteúdo</span>
           <h2 id="resume-title">O que eu destacaria no seu currículo</h2>
         </div>
       </div>

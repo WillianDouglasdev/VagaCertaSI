@@ -29,7 +29,7 @@ const matchGroups: Array<{
   {
     status: 'match',
     title: 'Você já tem',
-    description: 'A Lia encontrou exemplos disso no seu perfil.',
+    description: 'Encontrei uma evidência direta no perfil.',
   },
   {
     status: 'partial',
@@ -74,7 +74,7 @@ export function AnalysisResults({
         <div className="section-heading">
           <span className="section-number" aria-hidden="true">01</span>
           <div>
-            <span className="eyebrow">Separando a vaga</span>
+            <span className="eyebrow">Leitura dos requisitos</span>
             <h2 id="requirements-title">O que a empresa está procurando</h2>
           </div>
         </div>
@@ -113,7 +113,7 @@ export function AnalysisResults({
         <div className="section-heading">
           <span className="section-number" aria-hidden="true">02</span>
           <div>
-            <span className="eyebrow">Comparando com seu perfil</span>
+            <span className="eyebrow">Evidências do perfil</span>
             <h2 id="matches-title">O que você já tem — e o que está faltando</h2>
           </div>
         </div>
@@ -149,7 +149,7 @@ export function AnalysisResults({
       </section>
 
       <section className="result-section insights-grid" aria-label="Dicas da Lia">
-        <LiaInsight eyebrow="Dica da Lia" title="O que parece importar mais aqui?">
+        <LiaInsight eyebrow="Leitura da demo" title="O que parece importar mais aqui?">
           {analysis.companyPriorities.length > 0 ? (
             <ol className="priority-list">
               {analysis.companyPriorities.map((priority) => (
@@ -161,7 +161,7 @@ export function AnalysisResults({
           )}
         </LiaInsight>
 
-        <LiaInsight eyebrow="Dica da Lia" title="Por onde eu começaria" tone="coral">
+        <LiaInsight eyebrow="Sugestão de destaque" title="Por onde eu começaria" tone="coral">
           <p className="positioning-copy">{analysis.positioningRecommendation}</p>
           <div className="source-note">
             <span aria-hidden="true">↳</span>
