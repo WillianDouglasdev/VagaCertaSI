@@ -93,7 +93,7 @@ Hoje não existe integração com OpenAI, Gemini, Claude, modelo local ou qualqu
 outro LLM. Também não existe um “backend inteligente” escondido: o processamento é
 local e determinístico.
 
-## Como estudei para desenvolver
+## Como estudei para desenvolver e sobre o uso de IA 
 
 O projeto foi construído como parte do meu aprendizado. Usei documentação técnica,
 experimentação, fóruns de programação, Stack Overflow, artigos e comunidades. A
@@ -101,9 +101,9 @@ ideia também foi discutida informalmente com amigos estudantes e pessoas procur
 estágio, além de considerar discussões públicas sobre currículo e recrutamento.
 
 Ferramentas de IA foram uma das formas de apoio durante o processo: ajudaram a
-discutir arquitetura, revisar código e textos, estudar TypeScript, encontrar
-problemas, comparar abordagens e criar testes. Isso não significa que a aplicação
-foi construída automaticamente ou que a demo use IA durante a análise.
+discutir arquitetura, revisar código e textos, e principalmente como apoio ao front-end para ajuda a estudar TypeScript, encontrar
+problemas, comparar abordagens e criar testes. *Isso não significa que a aplicação
+foi construída automaticamente ou que a demo use IA durante a análise.*
 
 Não houve validação formal por profissionais de RH. As conversas e referências
 citadas acima serviram como estudo informal do problema.
